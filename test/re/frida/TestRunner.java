@@ -18,7 +18,8 @@ public class TestRunner {
 
         JUnitCore.main(
             "re.frida.ClassRegistryTest",
-            "re.frida.MethodTest"
+            "re.frida.MethodTest",
+            "re.frida.ClassCreationTest"
         );
     }
 
